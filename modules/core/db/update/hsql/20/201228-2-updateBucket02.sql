@@ -1,0 +1,2 @@
+alter table BUCKET3_BUCKET add constraint FK_BUCKET3_BUCKET_ON_USER_NAME foreign key (USER_NAME) references BUCKET3_USER(ID);
+create index IDX_BUCKET3_BUCKET_ON_USER_NAME on BUCKET3_BUCKET (USER_NAME);

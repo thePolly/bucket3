@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-bucket3" insertBefore="administration">
+        <item screen="bucket3_User.browse"/>
+        <item screen="bucket3_Bucket.browse"/>
+    </menu>
+</menu-config>
